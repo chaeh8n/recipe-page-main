@@ -50,7 +50,7 @@ label {
 }
 
 /* Balance text wrapping on headings */
-h1, 
+/* h1,  */
 h2,
 h3, 
 h4 {
@@ -111,7 +111,7 @@ ol,
 dl {
   font-family: "Outfit", sans-serif;
   color: var(--wenge-brown);
-  line-height: 1.4
+  font-size: 0.93rem;
 }
 
 h1,
@@ -120,11 +120,19 @@ h2 {
   font-weight: 400;
 }
 
+h1,
+h2,
+p,
+dd {
+  margin: 0;
+}
+
 h1 {
   color: var(--dark-charcoal);
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   line-height: 1;
-  max-width: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 h2 {
@@ -135,14 +143,37 @@ hr {
   border: 0.5px solid var(--light-grey);
 }
 
+.main-container {
+  max-width: 23.5rem;
+}
+
 .text-container {
   padding: 0rem 2rem;
-  /* background-color: lightpink; */
-  /* display: flex;
-  flex-direction: column;
-   */
 }
 
 .prep-time-container {
+  
   background-color: var(--rose-white);
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.prep-time-title {
+  color: var(--dark-raspberry);
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 20.875rem){
+  .recipe-title-container br {
+    display: none;
+  }
+}
+
+@media (min-width: 23.5rem) {
+  .recipe-title-container br {
+    display: none;
+  }
 }
