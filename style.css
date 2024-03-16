@@ -263,17 +263,6 @@ hr {
   font-weight: 700;
 }
 
-.attribution {
-  font-family: "Outfit", sans-serif;
-  font-size: 3vw;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.attribution a { color: var(--nutmeg); }
-
 @media (max-width: 20.875rem){
   .recipe-title-container br {
     display: none;
@@ -350,14 +339,5 @@ hr {
 
   .nutrition-list dt {
     max-width: 19rem;
-  }
-
-  .nutrition-list dt:last-child,
-  .nutrition-list dd:last-child {
-    margin-bottom: 0.2rem;
-  }
-
-  .attribution {
-    display: none;
   }
 }
