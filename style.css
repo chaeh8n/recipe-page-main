@@ -249,15 +249,17 @@ hr {
 
 .nutrition-list dt:last-child,
 .nutrition-list dd:last-child {
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.5rem;
 }
 
 .nutrition-list dt {
   margin-left: 1.9rem;
+  width: 7.4rem;
 }
 
 .nutrition-list dd {
-  margin-left: 3rem;
+  color: var(--nutmeg);
+  font-weight: 700;
 }
 
 @media (max-width: 20.875rem){
