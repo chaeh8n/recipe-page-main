@@ -13,8 +13,6 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
