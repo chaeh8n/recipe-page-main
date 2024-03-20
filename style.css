@@ -153,11 +153,29 @@ hr {
 }
 
 table {
-  text-align: start;
   border-collapse: collapse;
+  font-family: "Outfit", sans-serif;
+  width: 90%;
+  margin-top: 1rem;
 }
 
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--light-grey);
+}
 
+th {
+  font-weight: 400;
+  color: var(--wenge-brown);
+  text-align: start;
+  padding-left: 1.5rem;
+
+}
+
+td {
+  font-weight: 700;
+  color: var(--nutmeg);
+  padding: 0.6rem 0;
+}
 
 @media (max-width: 20.875rem){
   .recipe-title-container br {
@@ -177,7 +195,7 @@ table {
     background-color: var(--white);
     max-width: 45rem;
     padding: 2.3rem;
-    margin: 8rem 0rem;
+    margin: 4rem 0rem;
     border-radius: 1rem;
   }
 
