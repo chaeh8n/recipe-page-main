@@ -153,13 +153,11 @@ hr {
 }
 
 table {
-  /* border-collapse: collapse; */
-  width: 100%;
+  text-align: start;
+  border-collapse: collapse;
 }
 
-th {
-  width: 38%;
-}
+
 
 @media (max-width: 20.875rem){
   .recipe-title-container br {
